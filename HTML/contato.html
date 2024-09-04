@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Débora Azulay</title>
+    <link rel="stylesheet" href="/style/style_contato.css">
+    <!-- Link para ícones de pop-up (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://static.wixstatic.com/media/332b43_9e642ea7cc1e44afb1c80882f34ea797~mv2.png/v1/fill/w_218,h_151,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/332b43_9e642ea7cc1e44afb1c80882f34ea797~mv2.png" alt="Débora Azulay">
+        </div>
+        <nav class="menu">
+            <a href="/index.html">Início</a>
+            <a href="ilustracoes.html">Ilustrações</a>
+            <a href="/HTML/contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main id="contato">
+        <h2>Entre em Contato</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© Débora Azulay. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="/Src/feedback.js"></script>
+</body>
+</html>
